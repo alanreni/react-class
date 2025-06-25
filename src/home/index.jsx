@@ -7,7 +7,7 @@ const HomePage = () => {
     const [products, setProducts] = useState([]);
 
     const fetchProducts = () => {
-        fetch("https://sheetdb.io/api/v1/lznph4tf5x7x2")
+        fetch("https://sheetdb.io/api/v1/3m97gbc2j7b9d")
             .then(reponse => reponse.json())
             .then(data => setProducts(data));
     }
