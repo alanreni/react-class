@@ -22,7 +22,7 @@ const App = () => {
                       {/* Define a route for the product page with a dynamic 'id' parameter
                         this `id` will be accessible from the <ProductPage /> component
                         using the `useParms` hook
-                  */}
+                      */}
                       <Route path="/product/:id" element={<ProductPage />} />
 
                       {/* You can add more routes here as needed */}

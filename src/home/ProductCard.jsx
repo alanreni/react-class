@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
-const ProductPage = ({ id, name }) => {
+const ProductCard = ({ id, name }) => {
 
     return (
         <Link to={`/product/${id}`}>
@@ -13,4 +13,4 @@ const ProductPage = ({ id, name }) => {
 
 };
 
-export default ProductPage;
+export default ProductCard;
